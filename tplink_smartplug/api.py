@@ -201,6 +201,15 @@ class SmartPlug(object):
         :return: True if device is on, False otherwise
         '''
         return bool(self.info['relay_state'])
+    
+    @property
+    def real_data(self):
+        '''
+        Get Consumption data
+
+        :return json: {'voltage_mv': 235807, 'current_ma': 19, 'power_mw': 0, 'total_wh': 23, 'err_code': 0}
+        '''
+        return self.command(('emeter', 'get_realtime'))
 
     def turn_on(self):
         '''
