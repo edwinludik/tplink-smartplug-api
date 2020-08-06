@@ -23,11 +23,11 @@
 ## Install
 
 ```bash
-$ pip3 install git+https://github.com/vrachieru/tplink-smartplug-api.git
+$ pip3 install git+https://github.com/edwinludik/tplink-smartplug-api.git
 ```
 or
 ```bash
-$ git clone https://github.com/vrachieru/tplink-smartplug-api.git
+$ git clone https://github.com/edwinludik/tplink-smartplug-api.git
 $ pip3 install ./tplink-smartplug-api
 ```
 
@@ -48,6 +48,7 @@ print('Time:      %s' % plug.time)
 print('Is on:     %s' % plug.is_on)
 print('Nightmode: %s' % (not plug.led))
 print('RSSI:      %s' % plug.rssi)
+print('Real data: %s' % plug.real_data)
 ```
 
 ```bash
@@ -60,6 +61,7 @@ Time:      2018-11-06 14:14:00
 Is on:     True
 Nightmode: False
 RSSI:      -59
+Real data: {'voltage_mv': 237105, 'current_ma': 25, 'power_mw': 0, 'total_wh': 31921, 'err_code': 0}
 ```
 
 ### Change state
