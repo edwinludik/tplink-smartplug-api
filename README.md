@@ -1,3 +1,5 @@
+# A big Thanks to [vrachieru](https://github.com/vrachieru) for creating this repo. And a thanks to [M0NsTeRRR](https://github.com/M0NsTeRRR) and [pikoala](https://github.com/pikoala) for creating their respective pull requests. I only forked and applied the two pull requests.
+
 <p align="center">
     <img src="https://user-images.githubusercontent.com/5860071/48065298-f97e8400-e1d2-11e8-999c-1a84c25cac14.png" width="150px" border="0" />
     <br/>
